@@ -5,7 +5,17 @@
 </p>
 
 <p align="center">
-  Generate secure-looking random passwords by selecting your preferred length and character combinations.
+  Generate random and customizable passwords by selecting your preferred length and character combinations.
+</p>
+
+<p align="center">
+  <a href="https://password-generator-liard-theta.vercel.app/?_vercel_share=gEA6WwdxylzB4TsW674hV37Ygvo45X1w">
+    🌐 <b>Live Demo</b>
+  </a>
+  •
+  <a href="https://github.com/Sarthakbari/Password-Generator">
+    💻 <b>GitHub Repository</b>
+  </a>
 </p>
 
 ---
@@ -18,15 +28,19 @@
 
 </p>
 
+> Try the live application and generate your own customized password.
+
 ---
 
 ## 📌 About The Project
 
-**Password Generator** is a frontend web project designed to generate random and customizable passwords.
+**Password Generator** is a frontend web application created to generate random and customizable passwords quickly.
 
-The application provides users with different password-generation options, allowing them to control the password length and character combinations.
+The application allows users to select different password options such as password length, lowercase letters, uppercase letters, numbers and special symbols.
 
-This project was created as part of my continuous practice in **HTML, CSS and JavaScript**, with a focus on DOM manipulation, user interaction and frontend UI development.
+This project was developed as part of my continuous learning and practice in **HTML, CSS and JavaScript**, with a focus on DOM manipulation, user interaction, JavaScript logic and responsive frontend development.
+
+The main goal of this project is to create a simple and useful tool while improving practical JavaScript development skills.
 
 ---
 
@@ -34,49 +48,59 @@ This project was created as part of my continuous practice in **HTML, CSS and Ja
 
 <p>
   <a href="https://github.com/Sarthakbari/Password-Generator/search?l=javascript">
-    <img src="https://img.shields.io/badge/JavaScript-36%25-yellow?style=for-the-badge&logo=javascript" alt="JavaScript">
+    <img src="https://img.shields.io/badge/JavaScript-36%25-006400?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript">
   </a>
   <a href="https://github.com/Sarthakbari/Password-Generator/search?l=html">
-    <img src="https://img.shields.io/badge/HTML-35%25-orange?style=for-the-badge&logo=html5" alt="HTML">
+    <img src="https://img.shields.io/badge/HTML-35%25-006400?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
   </a>
   <a href="https://github.com/Sarthakbari/Password-Generator/search?l=css">
-    <img src="https://img.shields.io/badge/CSS-29%25-blue?style=for-the-badge&logo=css3" alt="CSS">
+    <img src="https://img.shields.io/badge/CSS-29%25-006400?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
   </a>
 </p>
 
 | Language | Percentage |
 |----------|------------|
-| **JavaScript** | **36%** |
-| **HTML** | **35%** |
-| **CSS** | **29%** |
-| **Total** | **100%** |
+| 🟢 **JavaScript** | **36%** |
+| 🟢 **HTML** | **35%** |
+| 🟢 **CSS** | **29%** |
+| 🟢 **Total** | **100%** |
+
+---
 
 ## ✨ Features
 
 ### 🔐 Password Generation
+
 - Generate random passwords instantly.
 - Create passwords with different character combinations.
 - Generate passwords according to selected preferences.
+- Customize the generated password according to user requirements.
 
-### 🎛️ Customization
+### 🎛️ Password Customization
+
 - Adjust password length.
 - Enable lowercase characters.
 - Enable uppercase characters.
 - Include numbers.
 - Include special symbols.
+- Create different password combinations.
 
 ### 💻 User Experience
+
 - Simple and clean interface.
 - Easy-to-understand controls.
 - Fast password generation.
 - Responsive layout.
 - Beginner-friendly design.
+- Interactive user interface.
 
 ### ⚡ Performance
+
 - Lightweight frontend application.
-- No unnecessary libraries.
-- Fast loading.
+- Fast execution.
+- No unnecessary dependencies.
 - Runs directly in the browser.
+- Simple JavaScript implementation.
 
 ---
 
@@ -84,16 +108,16 @@ This project was created as part of my continuous practice in **HTML, CSS and Ja
 
 | Technology | Purpose |
 |------------|---------|
-| 🟧 HTML5 | Page structure |
-| 🎨 CSS3 | Styling and responsive design |
-| 🟨 JavaScript | Password generation logic |
-| ▲ Vercel | Deployment |
+| 🟧 **HTML5** | Website structure |
+| 🎨 **CSS3** | Styling and responsive design |
+| 🟨 **JavaScript** | Password generation logic |
+| ▲ **Vercel** | Deployment |
 
 ---
 
 ## 🧠 Concepts Practiced
 
-While developing this project, I practiced several important frontend concepts:
+While developing this project, I practiced several important frontend development concepts:
 
 - DOM Manipulation
 - JavaScript Functions
@@ -103,8 +127,11 @@ While developing this project, I practiced several important frontend concepts:
 - String Manipulation
 - User Input Handling
 - Checkbox Handling
+- Array Handling
 - Responsive Web Design
 - Frontend Deployment
+- Git & GitHub
+- Basic UI/UX Design
 
 ---
 
@@ -113,17 +140,31 @@ While developing this project, I practiced several important frontend concepts:
 The application follows a simple process:
 
 ```text
-User selects options
-        ↓
-Password length is selected
-        ↓
-Character types are checked
-        ↓
-Available characters are created
-        ↓
-Random characters are selected
-        ↓
-Password is generated
-        ↓
-Generated password is displayed
+        👤 User
+          │
+          ▼
+  Select Password Length
+          │
+          ▼
+ Select Character Options
+          │
+          ▼
+ ┌────────────────────────┐
+ │ Lowercase Characters   │
+ │ Uppercase Characters   │
+ │ Numbers                │
+ │ Special Symbols        │
+ └────────────────────────┘
+          │
+          ▼
+  Character Set Created
+          │
+          ▼
+ Random Characters Selected
+          │
+          ▼
+   🔐 Password Generated
+          │
+          ▼
+ Display Password to User
 ```
